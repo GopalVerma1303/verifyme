@@ -16,8 +16,8 @@ const Color = {
 }
 
 const Card = (props) => {
-    var balance = props.balance
-    balance = balance * 9.5;
+    // var balance = props.balance
+    // balance = balance * 9.5;
 
 
 
@@ -29,15 +29,15 @@ const Card = (props) => {
                     {arrayIcon[props.icon]}
                 </div>
             </div>
-            <p className="text-gray-200 text-xs  ">
+            <p className="text-gray-200 p-4 text-x ">
                 {props.title}
             </p>
-            <p className="text-gray-50 text-lg  font-semibold  ">
+            {/* <p className="text-gray-50 text-lg  font-semibold  ">
                 {props.balance} EGLD
-            </p>
-            <p className="text-gray-300  text-sm ">
+            </p> */}
+            {/* <p className="text-gray-300  text-sm ">
                 ${balance}
-            </p>
+            </p> */}
 
 
 
