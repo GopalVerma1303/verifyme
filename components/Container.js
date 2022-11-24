@@ -11,7 +11,7 @@ const Container = (props) => {
                     Hello
                 </p>
                 <p className="font-bold text-2xl transform -translate-y-2">
-                    Gopal Verma
+                    {props.username}
                 </p>
             </div>
             <div>
@@ -29,6 +29,7 @@ const Container = (props) => {
                     <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
                     <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
                     <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+
                 </div>
             </div>
             {/* <div className="flex  ml-3 mt-6 space-x-6  mr-4">
