@@ -5,13 +5,13 @@ import Card from '../components/Card'
 
 const Container = (props) => {
     return (
-        <div className=" bg-gradient-to-r   " >
+        <div className=" bg-gradient-to-r " >
             <div className="  px-8 py-1 ">
                 <p className="text-gray-500 text-lg">
                     Hello
                 </p>
                 <p className="font-bold text-2xl transform -translate-y-2">
-                    {props.username}
+                    Gopal Verma
                 </p>
             </div>
             <div>
@@ -29,7 +29,10 @@ const Container = (props) => {
                     <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
                     <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
                     <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6ccd3e489bf34581bb78a1288b6cc1611484744f
                 </div>
             </div>
             {/* <div className="flex  ml-3 mt-6 space-x-6  mr-4">

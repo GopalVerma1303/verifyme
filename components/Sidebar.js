@@ -7,47 +7,35 @@ import SyncAltIcon from '@material-ui/icons/SyncAlt';
 import LayersIcon from '@material-ui/icons/Layers';
 import LockIcon from '@material-ui/icons/Lock';
 import EcoIcon from '@material-ui/icons/Eco';
+import SidebarTile from './SidebarTile';
 
 const Sidebar = () => {
     return (
-        <div className=" w-64 h-screen sticky top-0 ">
-            <div className=" border-b  py-5 flex ml-4 ">
+        <div className=" w-72 h-screen sticky top-0">
+            <div className=" border-b  py-5 ml-4  ">
                 <p className=" text-4xl font-bold">verifyMe</p>
+                <h1 className="text-gray-400 py-2">Customer Dashboard</h1>
             </div>
-            <div className="p-4 space-y-14">
+            <div className="p-4 space-y-14 border-r-2">
                 <div className="space-y-4" >
-                    <h1 className="text-gray-400">Customer Dashboard</h1>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <DonutLargeIcon className=" text-gray-300" />
-                            <p className=" "  >Dashbord</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ClearAllIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Transaction</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ArrowUpwardIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Send</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ArrowDownwardIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Receive</p>
-                        </div>
-                    </div>
-                    <div className="">
-                        <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SyncAltIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Buy</p>
-                        </div>
-                    </div>
-
+                    <SidebarTile title="Address Proof" />
+                    <SidebarTile title="Bank Statement" />
+                    <SidebarTile title="Business Proof" />
+                    <SidebarTile title="Employement Proof" />
+                    <SidebarTile title="Fund Raising" />
+                    <SidebarTile title="Identity Proof" />
+                    <SidebarTile title="Invoice" />
+                    <SidebarTile title="Personal Finance Statement" />
+                    <SidebarTile title="Power of attorney" />
+                    <SidebarTile title="Receipt" />
+                    <SidebarTile title="Salary Slip" />
+                    <SidebarTile title="Tax Return" />
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  w-full ">
+                        Upload Photo
+                    </button>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4  w-full ">
+                        Upload PDF
+                    </button>
                 </div>
             </div>
 
