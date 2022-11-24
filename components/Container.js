@@ -16,19 +16,25 @@ const Container = (props) => {
             </div>
             <div>
                 <div className="flex p-4 mt-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+                    <Card title="ADDRESS PROOF" icon={0} type="unchecked" />
+                    <Card title="BANK STATEMENT"  icon={0} type="unchecked" />
+                    <Card title="BUSINESS PROOF"  icon={0} type="unchecked" />
                 </div>
                 <div className="flex p-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+                    <Card title="EMPLOYMENT PROOF"  icon={0} type="unchecked" />
+                    <Card title="FUND RAISING"  icon={0} type="unchecked" />
+                    <Card title="IDENTITY PROOF"  icon={0} type="unchecked" />
                 </div>
                 <div className="flex p-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+                    <Card title="INVOICES" icon={0} type="unchecked" />
+                    <Card title="PERSONAL FINANCE"  icon={0} type="unchecked" />
+                    <Card title="POWER OF ATTORNEY"  icon={0} type="unchecked" />
+
+                </div>
+                <div className="flex p-4 space-x-12 ml-40">
+                    <Card title="RECEIPT"  icon={0} type="unchecked" />
+                    <Card title="SALARY SLIP"  icon={0} type="unchecked" />
+                    <Card title="TAX RETURN"  icon={0} type="unchecked" />
 
                 </div>
             </div>
