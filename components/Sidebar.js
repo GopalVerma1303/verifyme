@@ -11,12 +11,12 @@ import EcoIcon from '@material-ui/icons/Eco';
 const Sidebar = () => {
     return (
         <div className=" w-64 h-screen sticky top-0 ">
-            <div className=" border-b  py-3 mt-1 flex justify-start pl-4 ">
-                <p className="text-xl font-bold">verifyMe</p>
+            <div className=" border-b  py-5 flex ml-4 ">
+                <p className=" text-4xl font-bold">verifyMe</p>
             </div>
             <div className="p-4 space-y-14">
                 <div className="space-y-4" >
-                    <h1 className="text-gray-400">Menu</h1>
+                    <h1 className="text-gray-400">Customer Dashboard</h1>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <DonutLargeIcon className=" text-gray-300" />
