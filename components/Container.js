@@ -5,7 +5,7 @@ import Card from '../components/Card'
 
 const Container = (props) => {
     return (
-        <div className=" bg-gradient-to-r   " >
+        <div className=" bg-gradient-to-r " >
             <div className="  px-8 py-1 ">
                 <p className="text-gray-500 text-lg">
                     Hello

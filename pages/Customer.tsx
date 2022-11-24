@@ -115,7 +115,7 @@ export default function Customer() {
                 </div>
             ) : (
                 <div className='flex'>
-                    <div className='h-screen sticky top-0 border-r-2'>
+                    <div className='h-screen sticky top-0'>
                         <Sidebar />
                     </div>
                     <div className=' w-full pr-2'>
