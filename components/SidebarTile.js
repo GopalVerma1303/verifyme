@@ -11,7 +11,7 @@ import EcoIcon from '@material-ui/icons/Eco';
 function SidebarTile(props) {
     return (
         <div className="">
-            <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
+            <div className="flex p-2 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                 <p className=" "  >{props.title}</p>
             </div>
         </div>

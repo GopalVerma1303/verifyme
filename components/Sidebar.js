@@ -16,8 +16,8 @@ const Sidebar = () => {
                 <p className=" text-4xl font-bold">verifyMe</p>
                 <h1 className="text-gray-400 py-2">Customer Dashboard</h1>
             </div>
-            <div className="p-4 space-y-14 border-r-2">
-                <div className="space-y-4" >
+            <div className="p-4 border-r-2">
+                <div className="space-y-1" >
                     <SidebarTile title="Address Proof" />
                     <SidebarTile title="Bank Statement" />
                     <SidebarTile title="Business Proof" />

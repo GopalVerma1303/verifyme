@@ -11,24 +11,23 @@ const AdminContainer = () => {
                     Documents by
                 </p>
                 <p className="font-bold text-2xl transform -translate-y-2">
-                    Gopal Verma
+                    User Name
                 </p>
             </div>
-            <div>
-                <div className="flex p-4 space-x-12 ml-12">
-                    <Card title="TOTAL" balance={409.0790} icon={0} />
-                    <Card title="AVAILABLE" balance={300.0790} icon={0 } />
-                    <Card title="AVAILABLE" balance={300.0790} icon={0} />
-                </div>
-                <div className="flex p-4 space-x-12 ml-12 mt-4">
-                    <Card title="TOTAL" balance={409.0790} icon={0} />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} />
-                </div>
-                <div className="flex p-4 space-x-12 ml-12 mt-4">
-                    <Card title="TOTAL" balance={409.0790} icon={0} />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} />
-                </div>  
+            <div className="flex p-4 mt-4 space-x-12 ml-40">
+                <Card title="Document Name" balance="Document Type" icon={0} type="unchecked" />
+                <Card title="Document Name" balance="Document Type" icon={1} type="valid" />
+                <Card title="Document Name" balance="Document Type" icon={2} type="invalid" />
+            </div>
+            <div className="flex p-4 space-x-12 ml-40">
+                <Card title="Document Name" balance="Document Type" icon={0} type="valid" />
+                <Card title="Document Name" balance="Document Type" icon={1} type="invalid" />
+                <Card title="Document Name" balance="Document Type" icon={2} type="unchecked" />
+            </div>
+            <div className="flex p-4 space-x-12 ml-40">
+                <Card title="Document Name" balance="Document Type" icon={0} type="invalid" />
+                <Card title="Document Name" balance="Document Type" icon={1} type="unchecked" />
+                <Card title="Document Name" balance="Document Type" icon={2} type="valid" />
             </div>
             {/* <div className="flex  ml-3 mt-6 space-x-6  mr-4">
             </div> */}

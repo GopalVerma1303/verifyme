@@ -18,32 +18,27 @@ const CustomerList = () => {
                     <h1 className="text-gray-400">List of Customers</h1>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <DonutLargeIcon className=" text-gray-300" />
                             <p className=" "  >Gopal Verma</p>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ClearAllIcon className="text-gray-300" />
                             <p className="text-gray-600  " >Ujjawal Gupta</p>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ArrowUpwardIcon className="text-gray-300" />
                             <p className="text-gray-600  " >Sparsh Singh</p>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ArrowDownwardIcon className="text-gray-300" />
                             <p className="text-gray-600  " >Ankur Gupta</p>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <SyncAltIcon className="text-gray-300" />
-                            <p className="text-gray-600  " >Deepanshu Jindal</p>
+                                <p className="text-gray-600  " >Deepanshu Jindal</p>
                         </div>
                     </div>
 
