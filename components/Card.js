@@ -33,11 +33,9 @@ const Card = (props) => {
                 {props.title}
             </p>
             <p className="text-gray-50 text-lg  font-semibold  ">
-                {props.balance} EGLD
+                {props.balance}
             </p>
-            <p className="text-gray-300  text-sm ">
-                ${balance}
-            </p>
+
 
 
 

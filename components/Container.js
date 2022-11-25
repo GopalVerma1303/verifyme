@@ -11,29 +11,25 @@ const Container = (props) => {
                     Hello
                 </p>
                 <p className="font-bold text-2xl transform -translate-y-2">
-                    Gopal Verma
+                    User Name
                 </p>
             </div>
             <div>
                 <div className="flex p-4 mt-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+                    <Card title="Document Name" balance="Document Type" icon={0} type="unchecked" />
+                    <Card title="Document Name" balance="Document Type" icon={1} type="valid" />
+                    <Card title="Document Name" balance="Document Type" icon={2} type="invalid" />
                 </div>
                 <div className="flex p-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
+                    <Card title="Document Name" balance="Document Type" icon={0} type="valid" />
+                    <Card title="Document Name" balance="Document Type" icon={1} type="invalid" />
+                    <Card title="Document Name" balance="Document Type" icon={2} type="unchecked" />
                 </div>
                 <div className="flex p-4 space-x-12 ml-40">
-                    <Card title="TOTAL" balance={409.0790} icon={0} type="unchecked" />
-                    <Card title="AVAILABLE" balance={300.0790} icon={1} type="unchecked" />
-                    <Card title="CLAIMABLE REWARD" balance={100.0790} icon={2} type="unchecked" />
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ccd3e489bf34581bb78a1288b6cc1611484744f
-                </div>
+                    <Card title="Document Name" balance="Document Type" icon={0} type="invalid" />
+                    <Card title="Document Name" balance="Document Type" icon={1} type="unchecked" />
+                    <Card title="Document Name" balance="Document Type" icon={2} type="valid" />
+                </div>''
             </div>
             {/* <div className="flex  ml-3 mt-6 space-x-6  mr-4">
             </div> */}
